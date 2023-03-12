@@ -81,7 +81,6 @@ h1 {
 }
 
 .accordion__input:checked ~ * .icon {
-    display: inline-block;
     background: url(assets/icons/cross.png);
         
 }
