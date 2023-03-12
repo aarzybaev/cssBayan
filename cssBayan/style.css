@@ -15,6 +15,19 @@ h1 {
     font-size: 3.0rem;
     font-weight: 700;
 }
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 2.0rem;
+    }
+    .title {
+        font-size: 1.8rem;
+    }
+
+    img {
+        width: 250px;
+    }
+  }
 .accordion{
     max-width: 60rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -40,7 +53,6 @@ h1 {
     font-weight: bold;
     cursor: pointer;
     transition: background-color 0.1s;
-
 }
 
 .accordion__label:hover{
@@ -69,7 +81,6 @@ h1 {
 .accordion__content p {
     text-align: center;
     cursor: pointer;
-
 }
 .accordion__input{
     display: none;
@@ -95,12 +106,13 @@ h1 {
     width: 32px;
     height: 32px;
     transition: 0.5s ease;
-
 }
 
 .title {
     font-size: 2.0rem;
 }
+
+
 
 
 @keyframes fadeIn {
